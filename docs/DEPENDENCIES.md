@@ -10,7 +10,7 @@ One row per relation with another repository. The kind is conceptual, compile-ti
 | EH3D-HYDRA-BRIDGE | HYDRA-UMC-CONNECTOR-HUB | conceptual | adapter registry by manifest | published by its owner | not set | not set | to be written with the first code | the owner of the contract | the adapter manifest | to be defined |
 | EH3D-HYDRA-BRIDGE | HYDRA-UMC-BRIDGE-OPENPNP | conceptual | pick-and-place side of the assembly link | published by its owner | not set | not set | to be written with the first code | the owner of the contract | the assembly link | to be defined |
 | EH3D-HYDRA-BRIDGE | HYDRA-UMC-TWIN | conceptual | digital twin and model catalogue | published by its owner | not set | not set | to be written with the first code | the owner of the contract | the twin link | to be defined |
-| EH3D-HYDRA-BRIDGE | EH3D-PNP-MANAGER | conceptual | pick-and-place side on the EH3D side | not written | not set | not set | to be written with the first code | the owner of the contract | the assembly link | to be defined |
+| EH3D-HYDRA-BRIDGE | EH3D-PHOENIX-PNP | conceptual | pick-and-place side on the EH3D side | not written | not set | not set | to be written with the first code | the owner of the contract | the assembly link | to be defined |
 | EH3D-HYDRA-BRIDGE | EH3D-VISION-STUDIO | conceptual | vision templates on the EH3D side | not written | not set | not set | to be written with the first code | the owner of the contract | the vision link | to be defined |
 
 Rules: repositories are built next to each other as sibling folders and each declares in its manifest the versions of the others that it needs, once those exist. A lower layer never depends on a higher one. The manifest field for build dependencies stays empty until code exists.

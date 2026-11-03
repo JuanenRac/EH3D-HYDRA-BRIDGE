@@ -134,7 +134,7 @@ README and texts exist in English, Spanish, French, Italian, German, Chinese, Ja
 ## 🔗 Related Projects
 
 * [EH3D-DOCS](https://github.com/JuanenRac/EH3D-DOCS): the map of the suite, its architecture, the conventions and the shared checks
-* Planned relations, not built yet (EH3D-COMMON, EH3D-SERVER, HYDRA-UMC-SDK, HYDRA-UMC-CONNECTOR-HUB, HYDRA-UMC-BRIDGE-OPENPNP, HYDRA-UMC-TWIN, EH3D-PNP-MANAGER, EH3D-VISION-STUDIO): see [docs/DEPENDENCIES.md](docs/DEPENDENCIES.md)
+* Planned relations, not built yet (EH3D-COMMON, EH3D-SERVER, HYDRA-UMC-SDK, HYDRA-UMC-CONNECTOR-HUB, HYDRA-UMC-BRIDGE-OPENPNP, HYDRA-UMC-TWIN, EH3D-PHOENIX-PNP, EH3D-VISION-STUDIO): see [docs/DEPENDENCIES.md](docs/DEPENDENCIES.md)
 
 ## 📚 Documentation
 
