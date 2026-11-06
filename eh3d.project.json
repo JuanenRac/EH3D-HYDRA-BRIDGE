@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "ecosystem": "EH3D",
   "name": "EH3D-HYDRA-BRIDGE",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "role": "service",
   "stack": "rust",
   "technologies": [
@@ -17,7 +17,7 @@
   "family": "Ecosystem Operations",
   "parent": null,
   "build": "python -I tools/ci_validate.py",
-  "notes": "Scaffolding v0.0.1: PLANNED, no code yet. Adapter between the EH3D and HYDRA-UMC ecosystems. It talks to the EH3D server and is the counterpart of the bridge adapters of HYDRA-UMC. What exists is the base of every repository of the suite and the written scope, requirements, dependencies, threat model and decisions in docs/. The planned stack is Rust (a library with a command-line interface); nothing has been run on a machine.",
+  "notes": "Scaffolding v0.0.2: PLANNED, no code yet. Adapter between the EH3D and HYDRA-UMC ecosystems. It talks to the EH3D server and is the counterpart of the bridge adapters of HYDRA-UMC. What exists is the base of every repository of the suite and the written scope, requirements, dependencies, threat model and decisions in docs/. The planned stack is Rust (a library with a command-line interface); nothing has been run on a machine.",
   "native_version": {
     "file": "VERSION",
     "pattern": "^(\\d+\\.\\d+\\.\\d+)"
