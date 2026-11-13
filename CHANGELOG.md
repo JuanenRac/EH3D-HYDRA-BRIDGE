@@ -4,6 +4,7 @@ All notable changes to this project are documented here.
 
 ## [Unreleased]
 
+- **The validation of the CI is the reusable one of the documentation hub:** the job `validate` calls `validate.yml` of EH3D-DOCS (pinned by commit) and the check of the CHANGELOG is a job of its own.
 ## [0.0.2] - First release: the library, the command line, the stable error codes and the tests
 
 - **Brand:** Add the application icon and the logos of the program.
