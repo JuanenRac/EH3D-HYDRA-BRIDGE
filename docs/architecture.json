@@ -30,7 +30,8 @@
       ],
       "code": [
         "tools/ci_validate.py",
-        "tools/test_repository.py"
+        "tools/test_repository.py",
+        "tools/test_docs.py"
       ]
     },
     {
