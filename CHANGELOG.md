@@ -4,6 +4,8 @@ All notable changes to this project are documented here.
 
 ## [Unreleased]
 
+## [0.0.3] - Tests that keep the requirements and the status in step
+
 - **The title of the 0.0.2 section says what it contains:** the brand, the shared checks and the hardened workflows (the repository has no library, command line or tests of its own yet).
 
 - **The shared validation tools are updated:** the validator also runs the workflow and lessons checks of the suite with their latest rules, including a check to run before every push.
