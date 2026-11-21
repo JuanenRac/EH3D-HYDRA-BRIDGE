@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/License-GPL%203.0--or--later-blue.svg" alt="GPL 3.0 or later">
   <img src="https://img.shields.io/badge/Stack-Markdown%20%2B%20Python-blue.svg" alt="Markdown and Python">
   <img src="https://img.shields.io/badge/Languages-8-00E5FF.svg" alt="Languages">
-  <img src="https://img.shields.io/badge/Tests-6-2EA043.svg" alt="Tests">
+  <img src="https://img.shields.io/badge/Tests-15-2EA043.svg" alt="Tests">
   <img src="https://img.shields.io/badge/Version-0.0.3-0f6cbd.svg" alt="Version">
   <img src="https://img.shields.io/badge/Maturity-scaffolding-FFB020.svg" alt="Maturity">
 </p>
@@ -31,7 +31,7 @@
 |---|---|
 | Version | `0.0.3` |
 | Maturity | Scaffolding |
-| Tests | 6 |
+| Tests | 15 |
 | Stack | Markdown, Python 3.10+ |
 | On real hardware | Not run on hardware yet |
 
@@ -45,8 +45,8 @@ Each line is one part of this repository and the light says how far it is today.
 
 | Area | State | What it means here |
 |---|---|---|
-| Repository checks | 🟡 | The repository check, the check of the pictures and the 6 tests of the base run in CI and pass. |
-| Tests | 🟠 | Only the base has tests (6); the code of the repository will get its own as it is written. |
+| Repository checks | 🟡 | The repository check, the check of the pictures and the 15 tests of the base run in CI and pass. |
+| Tests | 🟠 | Only the base has tests (15); the code of the repository will get its own as it is written. |
 | Real hardware | 🟠 | Not run on any machine or board: nothing here has been tried on hardware. |
 | Planned function | 🔴 | Not started: none of the planned function has been written. |
 | Requirements | 🔴 | Every requirement is only planned: none is implemented or verified. |
@@ -80,7 +80,7 @@ python -I -m unittest discover -s tools -p "test_*.py"
 
 ## 🧪 Testing
 
-The base has 6 tests (`python -I -m unittest discover -s tools -p "test_*.py"`), and they pass. The CI runs the repository check, the check of the pictures and those tests.
+The base has 15 tests (`python -I -m unittest discover -s tools -p "test_*.py"`), and they pass. The CI runs the repository check, the check of the pictures and those tests.
 
 ## 🏗️ Build & Release
 
@@ -99,7 +99,7 @@ The version lives in the `VERSION` file and in `eh3d.project.json`, and each ver
 EH3D-HYDRA-BRIDGE/
 ├── docs/
 │   ├── architecture.json structure.json         the data of the two pictures
-│   ├── SCOPE.md REQUIREMENTS.md                 what is planned and its requirements
+│   ├── SCOPE.md REQUIREMENTS.md                 the scope, and the register of requirements with the test of each
 │   ├── DEPENDENCIES.md THREAT_MODEL.md          relations with other repositories and the threat model
 │   ├── DECISIONS.md STATUS.md                   decisions that apply here and the honest status
 │   ├── NOT_YET.md RULES.md                      ideas left for later and rules for writing code
@@ -140,7 +140,11 @@ README and texts exist in English, Spanish, French, Italian, German, Chinese, Ja
 
 * [The conventions of the suite](https://github.com/JuanenRac/EH3D-DOCS/blob/main/docs/CONVENTIONS.md)
 * [Changelog](CHANGELOG.md)
-* [Scope, requirements, dependencies, threat model and decisions](docs/SCOPE.md)
+* [Scope](docs/SCOPE.md): what the program is for, what it will not do and what it never decides.
+* [Requirements](docs/REQUIREMENTS.md): the register of capabilities, the state of each and the test that shows it.
+* [Status](docs/STATUS.md): what exists, what is missing and what is still open.
+* [Not yet](docs/NOT_YET.md): good ideas that are left out of this version.
+* [Rules for changing the repository](AGENTS.md): the rules for anyone who changes the repository.
 
 ## 🤝 Contributing & Community
 

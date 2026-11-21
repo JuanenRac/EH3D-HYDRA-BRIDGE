@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/License-GPL%203.0--or--later-blue.svg" alt="GPL 3.0 or later">
   <img src="https://img.shields.io/badge/Stack-Markdown%20%2B%20Python-blue.svg" alt="Markdown and Python">
   <img src="https://img.shields.io/badge/Languages-8-00E5FF.svg" alt="Languages">
-  <img src="https://img.shields.io/badge/Tests-6-2EA043.svg" alt="Tests">
+  <img src="https://img.shields.io/badge/Tests-15-2EA043.svg" alt="Tests">
   <img src="https://img.shields.io/badge/Version-0.0.3-0f6cbd.svg" alt="Version">
   <img src="https://img.shields.io/badge/Maturity-scaffolding-FFB020.svg" alt="Maturity">
 </p>
@@ -31,7 +31,7 @@
 |---|---|
 | 版本 | `0.0.3` |
 | 成熟度 | 脚手架 |
-| 测试 | 6 |
+| 测试 | 15 |
 | 技术栈 | Markdown, Python 3.10+ |
 | 真实硬件 | 尚未在硬件上运行 |
 
@@ -45,8 +45,8 @@
 
 | 领域 | 状态 | 在这里的含义 |
 |---|---|---|
-| 仓库检查 | 🟡 | 仓库检查、图片检查以及基础部分的 6 个测试都在 CI 中运行并通过。 |
-| 测试 | 🟠 | 只有基础部分有测试（6 个）；仓库的代码会在编写时获得自己的测试。 |
+| 仓库检查 | 🟡 | 仓库检查、图片检查以及基础部分的 15 个测试都在 CI 中运行并通过。 |
+| 测试 | 🟠 | 只有基础部分有测试（15 个）；仓库的代码会在编写时获得自己的测试。 |
 | 真实硬件 | 🟠 | 没有在任何机床或电路板上运行过：这里没有任何内容在硬件上试过。 |
 | 计划的功能 | 🔴 | 未开始：计划的功能尚未编写任何内容。 |
 | 需求 | 🔴 | 所有需求都只是计划：没有一项已实现或已验证。 |
@@ -80,7 +80,7 @@ python -I -m unittest discover -s tools -p "test_*.py"
 
 ## 🧪 测试
 
-基础部分有 6 个测试（`python -I -m unittest discover -s tools -p "test_*.py"`），并且都通过。CI 运行仓库检查、图片检查和这些测试。
+基础部分有 15 个测试（`python -I -m unittest discover -s tools -p "test_*.py"`），并且都通过。CI 运行仓库检查、图片检查和这些测试。
 
 ## 🏗️ 构建与发布
 
@@ -99,7 +99,7 @@ python -I -m unittest discover -s tools -p "test_*.py"
 EH3D-HYDRA-BRIDGE/
 ├── docs/
 │   ├── architecture.json structure.json         两张图的数据
-│   ├── SCOPE.md REQUIREMENTS.md                 计划内容及其需求
+│   ├── SCOPE.md REQUIREMENTS.md                 范围，以及带有各项测试的需求登记表
 │   ├── DEPENDENCIES.md THREAT_MODEL.md          与其他仓库的关系和威胁模型
 │   ├── DECISIONS.md STATUS.md                   适用的决策和如实的状态
 │   ├── NOT_YET.md RULES.md                      留待以后的想法和编写代码的规则
@@ -140,7 +140,11 @@ README 和文本提供英语、西班牙语、法语、意大利语、德语、�
 
 * [套件的约定](https://github.com/JuanenRac/EH3D-DOCS/blob/main/docs/CONVENTIONS.md)
 * [变更日志](CHANGELOG.md)
-* [范围、需求、依赖、威胁模型和决策](docs/SCOPE.md)
+* [范围](docs/SCOPE.md)： 程序的用途、不做什么，以及永远不由它决定的事。
+* [需求](docs/REQUIREMENTS.md)： 功能登记表、每项的状态以及证明它的测试。
+* [状态](docs/STATUS.md)： 已有的、缺少的和仍未决定的。
+* [暂不包含](docs/NOT_YET.md)： 本版本暂不包含的好想法。
+* [修改仓库的规则](AGENTS.md)： 修改本仓库的人需要遵守的规则。
 
 ## 🤝 参与贡献与社区
 

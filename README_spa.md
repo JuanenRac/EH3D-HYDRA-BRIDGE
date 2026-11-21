@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/License-GPL%203.0--or--later-blue.svg" alt="GPL 3.0 or later">
   <img src="https://img.shields.io/badge/Stack-Markdown%20%2B%20Python-blue.svg" alt="Markdown and Python">
   <img src="https://img.shields.io/badge/Languages-8-00E5FF.svg" alt="Languages">
-  <img src="https://img.shields.io/badge/Tests-6-2EA043.svg" alt="Tests">
+  <img src="https://img.shields.io/badge/Tests-15-2EA043.svg" alt="Tests">
   <img src="https://img.shields.io/badge/Version-0.0.3-0f6cbd.svg" alt="Version">
   <img src="https://img.shields.io/badge/Maturity-scaffolding-FFB020.svg" alt="Maturity">
 </p>
@@ -31,7 +31,7 @@
 |---|---|
 | Versión | `0.0.3` |
 | Madurez | Andamiaje |
-| Pruebas | 6 |
+| Pruebas | 15 |
 | Pila tecnológica | Markdown, Python 3.10+ |
 | En hardware real | Aún no se ha ejecutado en hardware |
 
@@ -46,7 +46,7 @@ Cada línea es una parte de este repositorio y la luz dice hasta dónde llega ho
 | Área | Estado | Qué significa aquí |
 |---|---|---|
 | Comprobaciones del repositorio | 🟡 | La comprobación del repositorio, la de las imágenes y las 6 pruebas de la base se ejecutan en el CI y pasan. |
-| Pruebas | 🟠 | Solo la base tiene pruebas (6); el código del repositorio tendrá las suyas a medida que se escriba. |
+| Pruebas | 🟠 | Solo la base tiene pruebas (15); el código del repositorio tendrá las suyas a medida que se escriba. |
 | Hardware real | 🟠 | No se ha ejecutado en ninguna máquina ni placa: nada de aquí se ha probado en hardware. |
 | Función planificada | 🔴 | Sin empezar: nada de la función planificada está escrito. |
 | Requisitos | 🔴 | Todos los requisitos están solo planificados: ninguno está implementado ni verificado. |
@@ -80,7 +80,7 @@ python -I -m unittest discover -s tools -p "test_*.py"
 
 ## 🧪 Pruebas
 
-La base tiene 6 pruebas (`python -I -m unittest discover -s tools -p "test_*.py"`), y pasan. El CI ejecuta la comprobación del repositorio, la de las imágenes y esas pruebas.
+La base tiene 15 pruebas (`python -I -m unittest discover -s tools -p "test_*.py"`), y pasan. El CI ejecuta la comprobación del repositorio, la de las imágenes y esas pruebas.
 
 ## 🏗️ Compilación y publicación
 
@@ -99,7 +99,7 @@ La versión vive en el fichero `VERSION` y en `eh3d.project.json`, y cada versi�
 EH3D-HYDRA-BRIDGE/
 ├── docs/
 │   ├── architecture.json structure.json         los datos de las dos imágenes
-│   ├── SCOPE.md REQUIREMENTS.md                 lo planificado y sus requisitos
+│   ├── SCOPE.md REQUIREMENTS.md                 el alcance y el registro de requisitos con la prueba de cada uno
 │   ├── DEPENDENCIES.md THREAT_MODEL.md          relaciones con otros repositorios y modelo de amenazas
 │   ├── DECISIONS.md STATUS.md                   decisiones que se aplican aquí y estado honesto
 │   ├── NOT_YET.md RULES.md                      ideas para más adelante y reglas para escribir código
@@ -140,7 +140,11 @@ El README y los textos existen en inglés, español, francés, italiano, alemán
 
 * [Las convenciones de la suite](https://github.com/JuanenRac/EH3D-DOCS/blob/main/docs/CONVENTIONS.md)
 * [Registro de cambios](CHANGELOG.md)
-* [Alcance, requisitos, dependencias, modelo de amenazas y decisiones](docs/SCOPE.md)
+* [Alcance](docs/SCOPE.md): para qué sirve el programa, qué no hará y qué no decide nunca.
+* [Requisitos](docs/REQUIREMENTS.md): el registro de capacidades, el estado de cada una y la prueba que la muestra.
+* [Estado](docs/STATUS.md): qué existe, qué falta y qué sigue abierto.
+* [Todavía no](docs/NOT_YET.md): buenas ideas que quedan fuera de esta versión.
+* [Reglas para cambiar el repositorio](AGENTS.md): las reglas para quien cambie el repositorio.
 
 ## 🤝 Contribuir y comunidad
 

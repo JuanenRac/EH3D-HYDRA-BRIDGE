@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/License-GPL%203.0--or--later-blue.svg" alt="GPL 3.0 or later">
   <img src="https://img.shields.io/badge/Stack-Markdown%20%2B%20Python-blue.svg" alt="Markdown and Python">
   <img src="https://img.shields.io/badge/Languages-8-00E5FF.svg" alt="Languages">
-  <img src="https://img.shields.io/badge/Tests-6-2EA043.svg" alt="Tests">
+  <img src="https://img.shields.io/badge/Tests-15-2EA043.svg" alt="Tests">
   <img src="https://img.shields.io/badge/Version-0.0.3-0f6cbd.svg" alt="Version">
   <img src="https://img.shields.io/badge/Maturity-scaffolding-FFB020.svg" alt="Maturity">
 </p>
@@ -31,7 +31,7 @@
 |---|---|
 | バージョン | `0.0.3` |
 | 成熟度 | 足場 |
-| テスト | 6 |
+| テスト | 15 |
 | 技術スタック | Markdown, Python 3.10+ |
 | 実機での動作 | まだハードウェアでは実行していません |
 
@@ -45,8 +45,8 @@
 
 | 領域 | 状態 | ここでの意味 |
 |---|---|---|
-| リポジトリ チェック | 🟡 | リポジトリ チェック、画像のチェック、基盤の 6 件のテストは CI で実行され、通っています。 |
-| テスト | 🟠 | テストがあるのは基盤だけ（6 件）です。リポジトリのコードには、書かれるにつれて専用のテストが加わります。 |
+| リポジトリ チェック | 🟡 | リポジトリ チェック、画像のチェック、基盤の 15 件のテストは CI で実行され、通っています。 |
+| テスト | 🟠 | テストがあるのは基盤だけ（15 件）です。リポジトリのコードには、書かれるにつれて専用のテストが加わります。 |
 | 実機 | 🟠 | どの機械やボードでも実行していません。ここにあるものは、ハードウェア上で試していません。 |
 | 計画中の機能 | 🔴 | 未着手：計画した機能はまだ何も書かれていません。 |
 | 要件 | 🔴 | すべての要件は計画のみ：実装も検証もされていません。 |
@@ -80,7 +80,7 @@ python -I -m unittest discover -s tools -p "test_*.py"
 
 ## 🧪 テスト
 
-基盤には 6 件のテストがあり（`python -I -m unittest discover -s tools -p "test_*.py"`）、通っています。CI はリポジトリ チェック、画像のチェック、これらのテストを実行します。
+基盤には 15 件のテストがあり（`python -I -m unittest discover -s tools -p "test_*.py"`）、通っています。CI はリポジトリ チェック、画像のチェック、これらのテストを実行します。
 
 ## 🏗️ ビルドとリリース
 
@@ -99,7 +99,7 @@ python -I -m unittest discover -s tools -p "test_*.py"
 EH3D-HYDRA-BRIDGE/
 ├── docs/
 │   ├── architecture.json structure.json         2 つの図のデータ
-│   ├── SCOPE.md REQUIREMENTS.md                 計画内容とその要件
+│   ├── SCOPE.md REQUIREMENTS.md                 範囲と、要件一覧およびそれぞれのテスト
 │   ├── DEPENDENCIES.md THREAT_MODEL.md          他のリポジトリとの関係と脅威モデル
 │   ├── DECISIONS.md STATUS.md                   適用される決定事項と正直な状況
 │   ├── NOT_YET.md RULES.md                      後回しにしたアイデアとコードの記述規則
@@ -140,7 +140,11 @@ README とテキストは、英語、スペイン語、フランス語、イタ�
 
 * [スイートの規約](https://github.com/JuanenRac/EH3D-DOCS/blob/main/docs/CONVENTIONS.md)
 * [変更履歴](CHANGELOG.md)
-* [範囲、要件、依存関係、脅威モデル、決定事項](docs/SCOPE.md)
+* [スコープ](docs/SCOPE.md)： このプログラムの目的、行わないこと、決して判断しないこと。
+* [要件](docs/REQUIREMENTS.md)： 機能の一覧、それぞれの状態、それを示すテスト。
+* [状況](docs/STATUS.md)： 存在するもの、足りないもの、まだ未決のこと。
+* [まだ対象外](docs/NOT_YET.md)： このバージョンに含めなかった良いアイデア。
+* [リポジトリ変更の規則](AGENTS.md)： リポジトリを変更する人のための規則。
 
 ## 🤝 コントリビュートとコミュニティ
 
