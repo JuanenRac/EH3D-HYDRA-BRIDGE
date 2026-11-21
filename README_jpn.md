@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/License-GPL%203.0--or--later-blue.svg" alt="GPL 3.0 or later">
   <img src="https://img.shields.io/badge/Stack-Markdown%20%2B%20Python-blue.svg" alt="Markdown and Python">
   <img src="https://img.shields.io/badge/Languages-8-00E5FF.svg" alt="Languages">
-  <img src="https://img.shields.io/badge/Tests-15-2EA043.svg" alt="Tests">
+  <img src="https://img.shields.io/badge/Tests-80-2EA043.svg" alt="Tests">
   <img src="https://img.shields.io/badge/Version-0.0.3-0f6cbd.svg" alt="Version">
   <img src="https://img.shields.io/badge/Maturity-scaffolding-FFB020.svg" alt="Maturity">
 </p>
@@ -31,7 +31,7 @@
 |---|---|
 | バージョン | `0.0.3` |
 | 成熟度 | 足場 |
-| テスト | 15 |
+| テスト | 80 |
 | 技術スタック | Markdown, Python 3.10+ |
 | 実機での動作 | まだハードウェアでは実行していません |
 
@@ -45,8 +45,8 @@
 
 | 領域 | 状態 | ここでの意味 |
 |---|---|---|
-| リポジトリ チェック | 🟡 | リポジトリ チェック、画像のチェック、基盤の 15 件のテストは CI で実行され、通っています。 |
-| テスト | 🟠 | テストがあるのは基盤だけ（15 件）です。リポジトリのコードには、書かれるにつれて専用のテストが加わります。 |
+| リポジトリ チェック | 🟡 | リポジトリ チェック、画像のチェック、基盤の 80 件のテストは CI で実行され、通っています。 |
+| テスト | 🟠 | テストがあるのは基盤だけ（80 件）です。リポジトリのコードには、書かれるにつれて専用のテストが加わります。 |
 | 実機 | 🟠 | どの機械やボードでも実行していません。ここにあるものは、ハードウェア上で試していません。 |
 | 計画中の機能 | 🔴 | 未着手：計画した機能はまだ何も書かれていません。 |
 | 要件 | 🔴 | すべての要件は計画のみ：実装も検証もされていません。 |
@@ -80,7 +80,7 @@ python -I -m unittest discover -s tools -p "test_*.py"
 
 ## 🧪 テスト
 
-基盤には 15 件のテストがあり（`python -I -m unittest discover -s tools -p "test_*.py"`）、通っています。CI はリポジトリ チェック、画像のチェック、これらのテストを実行します。
+基盤には 80 件のテストがあり（`python -I -m unittest discover -s tools -p "test_*.py"`）、通っています。CI はリポジトリ チェック、画像のチェック、これらのテストを実行します。
 
 ## 🏗️ ビルドとリリース
 
